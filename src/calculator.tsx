@@ -19,6 +19,7 @@ export function Calculator(){
           } else {
             setDisplay(display + value);
           }
+          
     }
 
     return <>

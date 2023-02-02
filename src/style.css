@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cdn.hovia.com/app/uploads/70s-rainbow-wave-retro-wallpaper-mural-Plain-scaled.jpg");
+    cursor: url("http://www.rw-designer.com/cursor-view/1839.png") 4 12, auto;
+}
+
+.calculator {
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color:rgba(46, 46, 46, 0.829) ;
+}
+
+.display {
+    height: 35px;
+    width: 224px;
+    background-color:rgba(38, 97, 35, 75);
+    font-size: 35px;
+    text-align: end;
+    padding: 4px;
+}
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+button {
+    background-color:rgb(0, 0, 0);
+    border: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 4px;
+}
+
+button:hover {
+    background-color: rgba(111,111,110,75);
+}
+
+button:active {
+    background-color:beige;
+}
+
+#equals {
+    background-color:red;
+
+}
+#equals:hover {
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+#clear {
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    font-size: 30px;
+}
+#clear:hover {
+    background-color: rgba(255, 196, 0, 0.726);
+}
+#operand {
+    background-color: rgb(37, 24, 16);
+}
+#operand:hover{
+    background-color: rgba(37, 24, 16, 0.596);
+}
+
+.history {
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 35px;
+    border-color: rgb(46, 46, 46);
+    border-width: 10px;
+    border-style: outset;
+    background-color:rgba(38, 97, 35, 75);
+    padding: 4px;
+    word-break: break-all;
+    overflow: scroll;
+    
+}
